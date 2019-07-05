@@ -1,0 +1,23 @@
+{
+  "name": "sbissue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@storybook/addon-actions": "^5.2.0-alpha.36",
+    "@storybook/addon-contexts": "5.2.0-alpha.36",
+    "@storybook/addon-docs": "^5.2.0-alpha.36",
+    "@storybook/addon-links": "^5.2.0-alpha.36",
+    "@storybook/addon-notes": "5.2.0-alpha.36",
+    "@storybook/addon-viewport": "5.2.0-alpha.36",
+    "@storybook/addons": "^5.2.0-alpha.36",
+    "@storybook/react": "^5.2.0-alpha.36",
+    "babel-loader": "^8.0.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
